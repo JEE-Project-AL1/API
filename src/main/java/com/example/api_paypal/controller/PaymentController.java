@@ -1,5 +1,5 @@
 package com.example.api_paypal.controller;
-import com.example.api_paypal.PaypalService;
+import com.example.api_paypal.service.PaypalService;
 import com.example.api_paypal.config.PaypalPaymentIntent;
 import com.example.api_paypal.config.PaypalPaymentMethod;
 import com.example.api_paypal.utils.URLUtils;
