@@ -1,8 +1,8 @@
-package com.example.api_paypal.controller;
-import com.example.api_paypal.service.PaypalService;
-import com.example.api_paypal.config.PaypalPaymentIntent;
-import com.example.api_paypal.config.PaypalPaymentMethod;
-import com.example.api_paypal.utils.URLUtils;
+package com.api_paypal.controller;
+import com.api_paypal.service.PaypalService;
+import com.api_paypal.utils.URLUtils;
+import com.api_paypal.config.PaypalPaymentIntent;
+import com.api_paypal.config.PaypalPaymentMethod;
 import com.paypal.api.payments.Links;
 import com.paypal.api.payments.Payment;
 import com.paypal.base.rest.PayPalRESTException;

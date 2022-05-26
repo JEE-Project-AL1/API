@@ -1,7 +1,7 @@
-package com.example.api_paypal.service;
+package com.api_paypal.service;
 
-import com.example.api_paypal.config.PaypalPaymentIntent;
-import com.example.api_paypal.config.PaypalPaymentMethod;
+import com.api_paypal.config.PaypalPaymentIntent;
+import com.api_paypal.config.PaypalPaymentMethod;
 import com.paypal.api.payments.*;
 import com.paypal.base.rest.APIContext;
 import com.paypal.base.rest.PayPalRESTException;

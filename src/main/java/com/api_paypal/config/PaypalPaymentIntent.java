@@ -1,4 +1,4 @@
-package com.example.api_paypal.config;
+package com.api_paypal.config;
 
 public enum PaypalPaymentIntent {
 

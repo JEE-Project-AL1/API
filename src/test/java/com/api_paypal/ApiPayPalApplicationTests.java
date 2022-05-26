@@ -1,4 +1,4 @@
-package com.example.api_paypal;
+package com.api_paypal;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

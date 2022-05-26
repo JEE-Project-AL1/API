@@ -1,4 +1,4 @@
-package com.example.api_paypal.utils;
+package com.api_paypal.utils;
 
 import javax.servlet.http.HttpServletRequest;
 
