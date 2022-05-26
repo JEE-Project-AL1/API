@@ -2,8 +2,15 @@ HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
+<<<<<<< HEAD
+!**/src/main/**/target/
+!**/src/test/**/target/
+/src/main/resources/application.properties
+!**/src/main/resources/application.properties
+=======
 !**/src/test/**/target/
 
+>>>>>>> 761631d66b5cd23511cd3ecf77f9ef0f93865ef3
 ### STS ###
 .apt_generated
 .classpath
@@ -18,6 +25,10 @@ target/
 *.iws
 *.iml
 *.ipr
+<<<<<<< HEAD
+/src/main/resources/application.properties
+=======
+>>>>>>> 761631d66b5cd23511cd3ecf77f9ef0f93865ef3
 
 ### NetBeans ###
 /nbproject/private/
