@@ -1,6 +1,6 @@
-package com.esgi.jee.apijee.kernel.config.security;
-import com.esgi.jee.apijee.kernel.security.JWTAuthenticationFilter;
-import com.esgi.jee.apijee.kernel.security.JWTAuthorizationFilter;
+package com.esgi.jee.security.kernel.security.kernel;
+import com.esgi.jee.security.kernel.security.payload.JWTAuthenticationFilter;
+import com.esgi.jee.security.kernel.security.payload.JWTAuthorizationFilter;
 import com.esgi.jee.apijee.user.application.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;

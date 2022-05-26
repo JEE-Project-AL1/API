@@ -1,4 +1,4 @@
-package com.esgi.jee.apijee.kernel.security;
+package com.esgi.jee.security.kernel.security.payload;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.HttpStatus;

@@ -1,4 +1,4 @@
-package com.esgi.jee.apijee.kernel.security.payload.response;
+package com.esgi.jee.security.kernel.security.payload.response;
 
 /**
  * Réponse à la demande d'obtention du jeton d'authentification
