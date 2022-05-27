@@ -1,4 +1,4 @@
-package com.api_paypal.utils;
+package com.esgi.jee.paypal.config;
 
 import javax.servlet.http.HttpServletRequest;
 

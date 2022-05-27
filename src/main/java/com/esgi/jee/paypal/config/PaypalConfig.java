@@ -1,4 +1,4 @@
-package com.api_paypal.config;
+package com.esgi.jee.paypal.config;
 
 import com.paypal.base.rest.APIContext;
 import com.paypal.base.rest.OAuthTokenCredential;

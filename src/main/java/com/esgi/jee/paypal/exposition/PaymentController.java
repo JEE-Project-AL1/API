@@ -1,8 +1,8 @@
-package com.api_paypal.controller;
-import com.api_paypal.service.PaypalService;
-import com.api_paypal.utils.URLUtils;
-import com.api_paypal.config.PaypalPaymentIntent;
-import com.api_paypal.config.PaypalPaymentMethod;
+package com.esgi.jee.paypal.exposition;
+import com.esgi.jee.paypal.application.PaypalService;
+import com.esgi.jee.paypal.config.URLUtils;
+import com.esgi.jee.paypal.config.PaypalPaymentIntent;
+import com.esgi.jee.paypal.config.PaypalPaymentMethod;
 import com.paypal.api.payments.Links;
 import com.paypal.api.payments.Payment;
 import com.paypal.base.rest.PayPalRESTException;
