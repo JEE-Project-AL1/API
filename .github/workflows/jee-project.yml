@@ -25,7 +25,7 @@ jobs:
         run: cd /home/runner/.ssh/ && echo "${{ secrets.EC2_SSH_KEY }}" > rsa-key.pem && chmod 400 rsa-key.pem 
 
       - name: Copy jar file in EC2 and launch
-        run: sudo scp -o StrictHostKeyChecking=no -i "/home/runner/.ssh/rsa-key.pem" launch.sh ec2-user@${{ secrets.HOST_DNS }}:~/
+        run: sudo scp -o StrictHostKeyChecking=no -i "/home/runner/.ssh/rsa-key.pem" script.sh ec2-user@${{ secrets.HOST_DNS }}:~/
 
       - name: Run Script
         run: ssh -o StrictHostKeyChecking=no -i "/home/runner/.ssh/rsa-key.pem" ec2-user@${{ secrets.HOST_DNS }} 'sh script.sh > logs'
