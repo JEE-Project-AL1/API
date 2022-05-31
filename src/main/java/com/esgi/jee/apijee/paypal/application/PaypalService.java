@@ -1,7 +1,7 @@
-package com.esgi.jee.paypal.application;
+package com.esgi.jee.apijee.paypal.application;
 
-import com.esgi.jee.paypal.config.PaypalPaymentIntent;
-import com.esgi.jee.paypal.config.PaypalPaymentMethod;
+import com.esgi.jee.apijee.paypal.config.PaypalPaymentIntent;
+import com.esgi.jee.apijee.paypal.config.PaypalPaymentMethod;
 import com.paypal.api.payments.*;
 import com.paypal.base.rest.APIContext;
 import com.paypal.base.rest.PayPalRESTException;
