@@ -1,5 +1,5 @@
 #!/bin/bash
-cd JEE_Project
+cd API
 git checkout master
 git pull 
 cd apijee
