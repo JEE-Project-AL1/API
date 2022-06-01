@@ -8,6 +8,6 @@ public class ApiJeeApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ApiJeeApplication.class, args);
-    }s
+    }
 
     }
