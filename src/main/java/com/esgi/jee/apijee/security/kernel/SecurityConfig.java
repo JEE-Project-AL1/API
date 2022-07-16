@@ -1,7 +1,6 @@
-package com.esgi.jee.security.kernel;
-import com.esgi.jee.security.payload.JWTAuthenticationFilter;
-import com.esgi.jee.security.payload.JWTAuthorizationFilter;
-import com.esgi.jee.apijee.user.application.UserService;
+package com.esgi.jee.apijee.security.kernel;
+import com.esgi.jee.apijee.security.payload.JWTAuthenticationFilter;
+import com.esgi.jee.apijee.security.payload.JWTAuthorizationFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,7 +17,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
-
+import com.esgi.jee.apijee.user.application.UserService;
 import java.util.List;
 
 /**

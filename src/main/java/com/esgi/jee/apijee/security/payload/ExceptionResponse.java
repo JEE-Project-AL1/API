@@ -1,4 +1,4 @@
-package com.esgi.jee.security.payload;
+package com.esgi.jee.apijee.security.payload;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.esgi.jee.security.payload;
+package com.esgi.jee.apijee.security.payload;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
