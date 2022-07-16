@@ -1,7 +1,7 @@
-package com.esgi.jee.apijee.apiComment.apiJee.comment.repository;
+package com.esgi.jee.apijee.comment.repository;
 
 
-import com.esgi.jee.apijee.apiComment.apiJee.comment.domain.Comment;
+import com.esgi.jee.apijee.comment.domain.Comment;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

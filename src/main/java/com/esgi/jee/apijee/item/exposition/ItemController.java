@@ -51,6 +51,11 @@ public class ItemController {
         return ResponseEntity.ok().body(itemService.getItems());
     }
 
+    @GetMapping("/search/{name}")
+    public List<ItemResponse> getItemByName(@PathVariable(name="name") String name){
+        List<ItemResponse> search = this.itemService.resultSearchItem(name);
+        return search;
+    }
     @GetMapping(path ="/{id}")
     public ResponseEntity<ItemResponse> getItemById(@PathVariable Long id){
         return ResponseEntity.ok().body(itemService.getItemById(id));

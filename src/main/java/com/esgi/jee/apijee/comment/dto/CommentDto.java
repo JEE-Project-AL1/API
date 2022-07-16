@@ -1,4 +1,4 @@
-package com.esgi.jee.apijee.apiComment.apiJee.comment.dto;
+package com.esgi.jee.apijee.comment.dto;
 
 import lombok.Data;
 

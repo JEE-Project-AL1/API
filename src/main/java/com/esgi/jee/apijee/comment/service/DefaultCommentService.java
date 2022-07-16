@@ -1,9 +1,9 @@
-package com.esgi.jee.apijee.apiComment.apiJee.comment.service;
+package com.esgi.jee.apijee.comment.service;
 
 
-import com.esgi.jee.apijee.apiComment.apiJee.comment.domain.Comment;
-import com.esgi.jee.apijee.apiComment.apiJee.comment.dto.CommentDto;
-import com.esgi.jee.apijee.apiComment.apiJee.comment.repository.CommentRepository;
+import com.esgi.jee.apijee.comment.domain.Comment;
+import com.esgi.jee.apijee.comment.dto.CommentDto;
+import com.esgi.jee.apijee.comment.repository.CommentRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 

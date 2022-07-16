@@ -1,7 +1,7 @@
-package com.esgi.jee.apijee.apiComment.apiJee.comment.service;
+package com.esgi.jee.apijee.comment.service;
 
 
-import com.esgi.jee.apijee.apiComment.apiJee.comment.dto.CommentDto;
+import com.esgi.jee.apijee.comment.dto.CommentDto;
 
 import java.util.List;
 

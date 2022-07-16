@@ -1,4 +1,4 @@
-package com.esgi.jee.apijee.apiComment.apiJee.comment.domain;
+package com.esgi.jee.apijee.comment.domain;
 
 import lombok.*;
 

@@ -1,8 +1,8 @@
-package com.esgi.jee.apijee.apiComment.apiJee.comment.controller;
+package com.esgi.jee.apijee.comment.controller;
 
 
-import com.esgi.jee.apijee.apiComment.apiJee.comment.dto.CommentDto;
-import com.esgi.jee.apijee.apiComment.apiJee.comment.service.CommentService;
+import com.esgi.jee.apijee.comment.dto.CommentDto;
+import com.esgi.jee.apijee.comment.service.CommentService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
