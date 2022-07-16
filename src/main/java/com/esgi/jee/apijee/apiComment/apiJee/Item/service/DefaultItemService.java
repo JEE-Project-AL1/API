@@ -45,6 +45,7 @@ public class DefaultItemService implements ItemService{
         return items.stream().map(item -> mapToDto(item)).collect(Collectors.toList());
     }
 
+
     @Override
     public ItemDto updateItem(ItemDto itemDto, long id) {
         Item item = this.itemRepository.getById(id);
