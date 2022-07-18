@@ -7,7 +7,10 @@ import com.esgi.jee.apijee.item.exposition.payload.SearchDto;
 import com.esgi.jee.apijee.item.exposition.payload.reponse.ItemResponse;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ItemMapper {
 
     private final ModelMapper modelMapper;
