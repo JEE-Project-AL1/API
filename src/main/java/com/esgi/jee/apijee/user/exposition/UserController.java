@@ -21,8 +21,12 @@ import java.util.stream.Collectors;
 @Slf4j
 @RestController
 @RequestMapping("/api")
-@RequiredArgsConstructor
 public class UserController {
+    public UserController(UserService userService, ModelMapper modelMapper) {
+        this.userService = userService;
+        this.modelMapper = modelMapper;
+    }
+
     @Autowired
     private final UserService userService;
     @Autowired

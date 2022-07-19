@@ -3,7 +3,9 @@ package com.esgi.jee.apijee.comment.controller;
 
 import com.esgi.jee.apijee.comment.dto.CommentDto;
 import com.esgi.jee.apijee.comment.service.CommentService;
+import com.esgi.jee.apijee.user.application.UserService;
 import lombok.RequiredArgsConstructor;
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -20,6 +22,7 @@ public class CommentController {
     public CommentController(CommentService commentService){
         this.commentService = commentService;
     }
+
 
     @PostMapping
     public ResponseEntity<CommentDto> createComment(@RequestBody CommentDto commentDto) {
