@@ -45,6 +45,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests()
                 .antMatchers("/api/user/save","/login","/api/item","/api/item/category/*").permitAll();
         http.authorizeRequests().anyRequest().authenticated();
+        http.autori
         http.addFilter(new JWTAuthenticationFilter(authenticationManagerBean(), userService));
         http.addFilterBefore(new JWTAuthorizationFilter(userService), UsernamePasswordAuthenticationFilter.class);
         http.exceptionHandling().accessDeniedHandler(accessDeniedHandler());
